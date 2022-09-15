@@ -4,6 +4,8 @@ import br.com.lucas.app.calculo.interno.OperacoesAritmeticas;
 import br.com.lucas.app.logging.Logger;
 
 public class Calculadora {
+	
+	private String id = "abc";
 
 	private OperacoesAritmeticas operacoesAritmeticas = new OperacoesAritmeticas();
 
