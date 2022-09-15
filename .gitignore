@@ -1,4 +1,4 @@
-
 .DS_Store
 jdbc/conexao.properties
 jpa/src/META-INF/persistence.xml
+modulos/app-calculo/.classpath
