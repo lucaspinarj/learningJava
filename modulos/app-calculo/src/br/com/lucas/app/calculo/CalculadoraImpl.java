@@ -1,9 +1,10 @@
 package br.com.lucas.app.calculo;
 
+import br.com.lucas.app.Calculadora;
 import br.com.lucas.app.calculo.interno.OperacoesAritmeticas;
 import br.com.lucas.app.logging.Logger;
 
-public class Calculadora {
+public class CalculadoraImpl implements Calculadora {
 	
 	private String id = "abc";
 
