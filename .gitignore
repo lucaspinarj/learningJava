@@ -1,5 +1,10 @@
 .DS_Store
+.classpath
+.project
+.settings
+javafx/bin/
 jdbc/conexao.properties
 jpa/src/META-INF/persistence.xml
-modulos/app-calculo/.classpath
-modulos/app-financeiro/.classpath
+
+
+

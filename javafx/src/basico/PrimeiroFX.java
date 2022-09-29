@@ -18,6 +18,7 @@ public class PrimeiroFX extends Application {
 		
 		botao1.setOnAction(e -> System.out.println("A"));
 		botao2.setOnAction(e -> System.out.println("B"));
+		botao3.setOnAction(e -> System.out.println("C"));
 		botao3.setOnAction(e -> System.exit(0));
 		
 		HBox box = new HBox();
