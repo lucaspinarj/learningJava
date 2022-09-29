@@ -37,14 +37,19 @@ public class Contador extends Application{
 		boxBotoes.getChildren().add(botaoDecremento);
 		boxBotoes.getChildren().add(botaoIncremento);
 		
-		VBox boxPrincipal = new VBox();
-		boxPrincipal.setSpacing(10);
-		boxPrincipal.setAlignment(Pos.CENTER);
-		boxPrincipal.getChildren().add(labelTitulo);
-		boxPrincipal.getChildren().add(labelNumero);
-		boxPrincipal.getChildren().add(boxBotoes);
+		VBox boxConteudo = new VBox();
+		boxConteudo.setSpacing(10);
+		boxConteudo.setAlignment(Pos.CENTER);
+		boxConteudo.getChildren().add(labelTitulo);
+		boxConteudo.getChildren().add(labelNumero);
+		boxConteudo.getChildren().add(boxBotoes);
 		
-		Scene cenaPrincipal = new Scene(boxPrincipal, 400, 400);
+		boxConteudo.getStyleClass().add("conteudo");
+		
+		String caminhoDoCSS = getClass().getResource("/basico/Contador.css").toExternalForm();
+		
+		Scene cenaPrincipal = new Scene(boxConteudo, 400, 400);
+		cenaPrincipal.getStylesheets().add(caminhoDoCSS);
 		
 		primaryStage.setScene(cenaPrincipal);
 		primaryStage.show();
